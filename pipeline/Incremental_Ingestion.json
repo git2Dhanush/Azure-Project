@@ -8,6 +8,11 @@
 				"dependsOn": [],
 				"userProperties": [],
 				"typeProperties": {
+					"items": {
+						"value": "@pipeline().parameters.loop_tables",
+						"type": "Expression"
+					},
+					"isSequential": true,
 					"activities": [
 						{
 							"name": "Azure_SQL_2_Lake",
@@ -317,7 +322,7 @@
 		],
 		"parameters": {
 			"loop_tables": {
-				"type": "string",
+				"type": "array",
 				"defaultValue": [
 					{
 						"schema": "dbo",
