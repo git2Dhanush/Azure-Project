@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "config": {
+    "bundle": {
+      "name": "spotify_assest_bundle_azure",
+      "target": "dev",
+      "mode": "development",
+      "git": {
+        "bundle_root_path": "."
+      }
+    },
+    "workspace": {
+      "file_path": "/Workspace/Users/kuthurudhanush687@gmail.com/.bundle/spotify_assest_bundle_azure/dev/files"
+    },
+    "resources": {},
+    "presets": {
+      "source_linked_deployment": false
+    }
+  },
+  "extra": {
+    "git_folder_path": "/Workspace/Users/kuthurudhanush687@gmail.com/spotify_assest_bundle_azure"
+  }
+}
